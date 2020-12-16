@@ -1,0 +1,33 @@
+
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: #202020;
+}
+
+.header > img {
+  height: 50px;
+  width: 300px;
+  margin: 10px;
+}
+
+.headerNav {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  margin: 10px;
+}
+
+.headerOption {
+  padding: 2px 10px;
+  border-right: 3px solid green;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.greenButton {
+  background-color: green;
+  font-style: bold;
+  padding: 0px 10px;
+
+}
